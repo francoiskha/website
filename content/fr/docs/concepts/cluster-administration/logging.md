@@ -159,8 +159,7 @@ le répertoire `/var/log`, en  contournant le mécanisme de journalisation par
 défaut. Ils utilisent la  bibliothèque de journalisation [klog][klog]. Les
 conventions pour la sévérité des évènements pour ces composants se trouvent dans
 cette [documentation sur les conventions de journalisation des évènements dans
-kubernetes]
-(https://github.com/kubernetes/community/blob/master/contributors/devel/sig-instrumentation/logging.md).
+kubernetes](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-instrumentation/logging.md).
 
 De la même manière que les journaux des conteneurs, les journaux des composants
 systèmes doivent avoir une politique de rotation. Dans un cluster créé avec
